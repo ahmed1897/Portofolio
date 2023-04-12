@@ -34,5 +34,15 @@
   }
 }
 
+.lg-text{
+  background: linear-gradient(to right, rgb(0, 183, 255), rgb(255, 48, 255));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
 
-
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
